@@ -1,0 +1,112 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+/*font-family: 'Roboto Condensed', sans-serif;  */
+.tout{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(81, 81, 81, 0.75);
+  margin: 0px;
+  padding: 10px 0; /* Ajustez le padding pour augmenter la hauteur de la barre */
+  width: 100%;
+  z-index: 3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px; /* Taille du texte */
+}
+
+a:hover {
+  color: rgb(59, 160, 1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: blueviolet;
+}
+
+.titre{
+  margin-top: 3%;
+}
+
+
+
+
+
+.svg-container {
+    width: 200%; /* Pour rendre le conteneur de l'élément SVG réactif */
+    max-width: 1000px; /* Par exemple, une largeur maximale de 500px */
+    margin: 0 auto; /* Pour centrer horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  svg {
+    width: 200%; /* Rendre le SVG réactif à la taille de son conteneur */
+    height: auto; /* Ajuster la hauteur proportionnellement à la largeur */
+    max-width: 200%; /* Assurez-vous que le SVG ne dépasse pas la taille de son conteneur */
+  }
+
+
+
+.a {
+    transition: filter 0.3s ease;
+  }
+  
+  .a:hover {
+    filter: brightness(0.2);
+  }
+  
+  /* Style de l'infobulle */
+  .tooltip {
+    position: absolute;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: none; /* Caché par défaut */
+  }
+  
+
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 30%; /* Taille maximale des images */
+    height: auto;
+    margin-bottom: 50px; /* Espacement entre les images */
+  }
+  
+  
